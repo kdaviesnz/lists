@@ -1,0 +1,29 @@
+{
+  "name": "kdaviesnz/list",
+  "description": "Enables functional style syntax eg $list->filter($cb)->map($cb2)",
+  "keywords": ["functional", "map", "filter", "foldl", "foldr"],
+  "homepage": "http://github/kdaviesnz",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kevin Davies",
+      "homepage": "https://ec2-54-66-225-34.ap-southeast-2.compute.amazonaws.com/wordpress/",
+      "role": "Developer"
+    } ],
+  "support": {
+    "email": "kdavies@gmail.com"
+  },
+  "require": {
+    "php" : ">=7.0.0",
+    "phpunit/phpunit": "8.1.6"
+  },
+  "require-dev": {
+  },
+  "suggest": {
+  },
+  "autoload": {
+    "psr-4": {
+    "kdaviesnz\\list\\": "src/"
+    }
+  }
+}
